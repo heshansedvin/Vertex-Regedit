@@ -224,3 +224,50 @@ section {
 	color: #aaa;
 	line-height: 2;
   }
+
+  @media (max-width: 768px) {
+	#menu-btn {
+	  display: inline-block;
+	}
+	.header .navbar {
+	  position: absolute;
+	  top: 99%;
+	  left: 0;
+	  right: 0;
+	  background: #222;
+	  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+			  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+	}
+	.header .navbar.active {
+	  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+			  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+	}
+	.header .navbar a {
+	  margin: 2rem;
+	  font-size: 2rem;
+	  display: block;
+	}
+	.dashboard {
+	  margin-top: 10rem;
+	}
+	.dashboard .content span {
+	  font-size: 8vw;
+	  text-decoration: none;
+	}
+	.dashboard .content h3 {
+	  font-size: 9vw;
+	}
+  }
+  
+  @media (max-width: 450px) {
+	html {
+	  font-size: 50%;
+	}
+	.about .content h3 {
+	  font-size: 3.5rem;
+	}
+	.banner .content h3 {
+	  font-size: 2.7rem;
+	}
+  }
+  /*# sourceMappingURL=style.css.map */
