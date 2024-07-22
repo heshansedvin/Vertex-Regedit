@@ -5,7 +5,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const password = document.getElementById('password').value;
     const message = document.getElementById('message');
 
-    if (username === '11' && password === '1') {
+    if (username === '1' && password === '1') {
         window.location.href = 'download.html';
     } else {
         message.textContent = 'Invalid username or password!';
