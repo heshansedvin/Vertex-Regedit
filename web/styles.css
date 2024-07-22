@@ -47,7 +47,7 @@ button:hover {
     background-color: #0056b3;
 }
 
-p#message, p#regMessage {
+p#message {
     color: red;
     margin-top: 10px;
 }
