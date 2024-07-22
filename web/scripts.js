@@ -10,4 +10,19 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     } else {
         message.textContent = 'Invalid username or password!';
     }
+    if (username === 'dagi' && password === '1') {
+        window.location.href = 'download.html';
+    } else {
+        message.textContent = 'Invalid username or password!';
+    }
+    if (username === 'lioo' && password === 'lioo') {
+        window.location.href = 'download.html';
+    } else {
+        message.textContent = 'Invalid username or password!';
+    }
+    if (username === 'milf' && password === '123') {
+        window.location.href = 'download.html';
+    } else {
+        message.textContent = 'Invalid username or password!';
+    }
 });
