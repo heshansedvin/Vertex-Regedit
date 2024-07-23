@@ -26,7 +26,7 @@ if (!isset($_SESSION['sessionid'])) {
 
     <?php
 	echo '
-	    <title>KeyAuth - Upgrade Account</title>
+	    <title>Vertex Regedit - Upgrade Account</title>
 	    <meta name="og:image" content="https://cdn.keyauth.cc/front/assets/img/favicon.png">
         <meta name="description" content="Upgrade your account in  ' . $name . '">
         ';
