@@ -26,7 +26,7 @@ if (!isset($_SESSION['sessionid'])) {
 
     <?php
 	echo '
-	    <title>KeyAuth - Register to ' . $name . ' Panel</title>
+	    <title>Vertex Regedit - Register to ' . $name . ' Panel</title>
 	    <meta name="og:image" content="https://cdn.keyauth.cc/front/assets/img/favicon.png">
         <meta name="description" content="Register to reset your HWID or download ' . $name . '">
         ';
