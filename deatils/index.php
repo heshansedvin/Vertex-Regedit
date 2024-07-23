@@ -28,7 +28,7 @@ if (!isset($_SESSION['sessionid'])) {
 
     <?php
 	echo '
-	    <title>KeyAuth - Login to ' . $name . ' Panel</title>
+	    <title>Vertex Regedit - Login to ' . $name . ' Panel</title>
 	    <meta name="og:image" content="https://cdn.keyauth.cc/front/assets/img/favicon.png">
         <meta name="description" content="Login to reset your HWID or download ' . $name . '">
         ';
