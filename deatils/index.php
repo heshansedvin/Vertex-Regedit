@@ -37,7 +37,7 @@ if (!isset($_SESSION['sessionid'])) {
 
 
     <link rel="stylesheet" href="https://github.com/heshansedvin/Vertex-Regedit/blob/a125e3d3d185841c3fdddc5f90dbb4043e46b106/deatils/css/notyf.min.css">
-    <link rel="stylesheet" type="text/css" href="https://github.com/heshansedvin/Vertex-Regedit/blob/7857ca97aaaeacb3e2e1198d03fd246e87ed03d2/deatils/css/output.css" />
+    <link rel="stylesheet" type="text/css" href="https://github.com/heshansedvin/Vertex-Regedit/blob/main/deatils/css/output.css" />
 
     <script>
     if (window.history.replaceState) {
