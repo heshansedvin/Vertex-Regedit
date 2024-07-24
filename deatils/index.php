@@ -3,18 +3,20 @@ require 'credentials.php';
 require 'keyauth.php';
 
 
+
 if (session_status() === PHP_SESSION_NONE) {
-    session_start();
+	session_start();
 }
 
-if (!isset($_SESSION['un'])) {
-    die("not logged in");
+if (isset($_SESSION['un'])) {
+	header("Location: ../deatils/dashboard/index.php");
+	exit();
 }
 
-if (isset($_POST['logout'])) {
-    session_destroy();
-    header("Location: ../");
-    exit();
+$KeyAuthApp = new KeyAuth\api($name, $OwnerId);
+
+if (!isset($_SESSION['sessionid'])) {
+	$KeyAuthApp->init();
 }
 
 ?>
