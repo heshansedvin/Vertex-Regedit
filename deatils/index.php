@@ -113,7 +113,7 @@ if (!isset($_SESSION['sessionid'])) {
 	if (isset($_POST['login'])) {
 		if ($KeyAuthApp->login($_POST['username'], $_POST['password'])) {
 			$_SESSION['un'] = $_POST['username'];
-			echo "<meta http-equiv='Refresh' Content='2; url=../dashboard/'>";
+			echo "<meta http-equiv='Refresh' Content='2; url=../deatils/dashboard/index.php'>";
 			echo '
                         <script type=\'text/javascript\'>
                         
