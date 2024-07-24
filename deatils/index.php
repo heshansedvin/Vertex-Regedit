@@ -7,7 +7,7 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 if (isset($_SESSION['un'])) {
-	header("Location: dashboard/");
+	header("Location: ../deatils/dashboard/index.php");
 	exit();
 }
 
@@ -33,7 +33,6 @@ if (!isset($_SESSION['sessionid'])) {
         <meta name="description" content="Login to reset your HWID or download ' . $name . '">
         ';
 	?>
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
 
 
@@ -53,8 +52,7 @@ if (!isset($_SESSION['sessionid'])) {
         <nav class="border-gray-200 px-4 lg:px-6 py-2.5 mb-14">
             <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                 <a href="../" class="flex items-center">
-                    <img src="https://cdn.keyauth.cc/v2/assets/media/logos/logo-1-dark.png" class="mr-3 h-12 mt-2"
-                        alt="KeyAuth Logo" />
+                    <h1>Vertex Regedit</h1>
                 </a>
             </div>
         </nav>
