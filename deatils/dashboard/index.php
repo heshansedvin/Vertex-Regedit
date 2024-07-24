@@ -43,7 +43,6 @@ $customerPanelLink = $KeyAuthApp->customerPanelLink;
 ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
-
 <head>
     <base href="">
     <title><?php echo $name; ?> Panel</title>
