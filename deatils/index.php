@@ -37,7 +37,7 @@ if (!isset($_SESSION['sessionid'])) {
 
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.keyauth.cc/v3/dist/output.css" />
+    <link rel="stylesheet" type="text/css" href="#" />
 
     <script>
     if (window.history.replaceState) {
