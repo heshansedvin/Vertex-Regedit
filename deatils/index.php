@@ -7,7 +7,7 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 if (isset($_SESSION['un'])) {
-	header("Location: ../dashboard/");
+	header("Location: dashboard/");
 	exit();
 }
 
