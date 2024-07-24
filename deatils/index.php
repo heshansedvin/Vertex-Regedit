@@ -36,7 +36,7 @@ if (!isset($_SESSION['sessionid'])) {
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
 
 
-    <link rel="stylesheet" href="https://github.com/heshansedvin/Vertex-Regedit/blob/a125e3d3d185841c3fdddc5f90dbb4043e46b106/deatils/css/notyf.min.css">
+    <link rel="stylesheet" href="https://github.com/heshansedvin/Vertex-Regedit/blob/main/deatils/css/notyf.min.css">
     <link rel="stylesheet" type="text/css" href="https://github.com/heshansedvin/Vertex-Regedit/blob/main/deatils/css/output.css" />
 
     <script>
