@@ -359,9 +359,7 @@ $customerPanelLink = $KeyAuthApp->customerPanelLink;
             xmlHttp.send();
         }
     </script>
-
     <?php
-
     if (isset($_POST['resethwid'])) {
 
         $today = time();
@@ -399,9 +397,7 @@ $customerPanelLink = $KeyAuthApp->customerPanelLink;
     }
     ?>
 </body>
-
 </html>
-
 <?php
 #region Extra Functions
 /*

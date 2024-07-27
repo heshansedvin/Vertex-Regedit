@@ -10,13 +10,13 @@
     transition: all .2s linear;
 }
 
-$blue:#29d9d5;
+$green:#29d9d5;
 $black:#111;
 $white:#fff;
 $light-color:#aaa;
 $bg-color:#222;
 $black-bg:rgba(17,17,17,.7);
-$border:.2rem solid $blue;
+$border:.2rem solid $green;
 
 @mixin grid($val) {
     display: grid;
@@ -39,7 +39,7 @@ html{
     }
 
     &::-webkit-scrollbar-thumb{
-        background: $blue;
+        background: $green;
         border-radius: 5rem;
     }
 }
@@ -58,7 +58,7 @@ section{
     margin-bottom: 2rem;
 
     span{
-        color:$blue;
+        color:$green;
         font-size: 2rem;
     }
 
@@ -73,14 +73,14 @@ section{
     display: inline-block;
     padding:1rem 3rem;
     font-size: 1.7rem;
-    color:$blue;
+    color:$green;
     border:$border;
     border-radius: 5rem;
     cursor: pointer;
     background: none;
 
     &:hover{
-        background: $blue;
+        background: $green;
         color:$black;
     }
 }
@@ -102,7 +102,7 @@ section{
         margin:0 1rem;
 
         &:hover{
-            color:$blue;
+            color:$green;
         }
     }
 
@@ -117,7 +117,7 @@ section{
     font-weight: bolder;
 
     i{
-        color:$blue;
+        color:$green;
         padding-right: .5rem;
     }
 }
@@ -240,7 +240,7 @@ section{
                 margin:.7rem;
 
                 &:hover{
-                    background: $blue;
+                    background: $green;
                 }
             }
         }
@@ -251,7 +251,7 @@ section{
         margin-bottom: 5rem;
 
         span{
-            color:$blue;
+            color:$green;
             font-size: 2rem;
         }
 
@@ -312,7 +312,7 @@ section{
 
             a{
                 font-size: 1.7rem;
-                color:$blue;
+                color:$green;
 
                 &:hover i{
                     padding-left: 1rem;
@@ -342,7 +342,7 @@ section{
 
         i{
             font-size: 4rem;
-            color:$blue;
+            color:$green;
             margin-bottom: 2rem;
         }
 
@@ -399,7 +399,7 @@ section{
 
         span{
             font-size: 2rem;
-            color:$blue;
+            color:$green;
         }
 
         h3{
@@ -498,7 +498,7 @@ section{
                 color:$white;
 
                 &:hover{
-                    color:$blue;
+                    color:$green;
                 }
             }
 
@@ -520,12 +520,12 @@ section{
                     color:$light-color;
 
                     &:hover{
-                        color:$blue;
+                        color:$green;
                     }
 
                     i{
                         padding-right: .5rem;
-                        color:$blue;
+                        color:$green;
                     }
                 }
             }
@@ -545,7 +545,7 @@ section{
         
         span{
             font-size: 2rem;
-            color:$blue;
+            color:$green;
         }
 
         h3{
@@ -590,7 +590,7 @@ section{
 
                 i{
                     padding-right: .5rem;
-                    color:$blue;
+                    color:$green;
                 }
             }
 
@@ -605,12 +605,12 @@ section{
                     border-radius: 50%;
                     font-size: 1.7rem;
                     border:$border;
-                    color:$blue;
+                    color:$green;
                     margin-right: .5rem;
                     text-align: center;
 
                     &:hover{
-                        background: $blue;
+                        background: $green;
                         color:$black;
                     }
                 }
@@ -623,7 +623,7 @@ section{
                 display: block;
 
                 &:hover{
-                    color:$blue;
+                    color:$green;
 
                     i{
                         padding-right: 2rem;
@@ -632,7 +632,7 @@ section{
 
                 i{
                     padding-right: .5rem;
-                    color:$blue;
+                    color:$green;
                 }
             }
 
@@ -659,7 +659,7 @@ section{
     color:$light-color;
 
     span{
-        color:$blue;
+        color:$green;
     }
 }
 
